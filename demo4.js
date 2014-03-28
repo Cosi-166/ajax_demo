@@ -16,6 +16,7 @@ var newArray = anArray.concat(anotherArray);
 document.write(newArray.toString());
 document.write("<br/>");
 document.write("<br/>");
+console.log(newArray.join("<br/>"));
 document.write(newArray.join("<br/>"));
 
 // Loops are just like Java or C
