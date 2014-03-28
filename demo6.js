@@ -19,4 +19,3 @@ function callBack() {
 	var t = d.toLocaleTimeString();
 	document.getElementById("timer").innerHTML = t;
 }
-
