@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-    $(".line").css("line-height", "200%");
+    $(".line").css("line-height", "100%");
 
     $(".stanza").css("margin-bottom", "15px").css("margin-left", "15px");
 

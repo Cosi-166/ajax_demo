@@ -2,9 +2,11 @@
 	Some more sample Javacript.
 */
 
-// Prompting the user, which only works in the browser, not within node for example...
-// var who = prompt("Please Enter Your Name", "name");
-// alert("Who ARE you???");
+// Prompting the user, which only works in the browser, not within node
+// for example...
+//
+var who = prompt("Please Enter Your Name", "name");
+alert("Who ARE you???");
 
 //	Arrays can take different data type and can be created in different ways
 
@@ -13,9 +15,11 @@ var anotherArray = new Array(4,3);
 var newArray = anArray.concat(anotherArray);
 
 // document.write writes to the html stream
+
 document.write(newArray.toString());
 document.write("<br/>");
 document.write("<br/>");
+
 console.log(newArray.join("<br/>"));
 document.write(newArray.join("<br/>"));
 
