@@ -6,7 +6,7 @@ var myTimer = null;
 
 function setTimer() {
 	document.getElementById("status").innerHTML = "Started timer..."
-	myTimer = setInterval(callBack, 1000);
+	myTimer = setInterval(callBack, 100);
 }
 
 function clearTimer() {
@@ -16,6 +16,6 @@ function clearTimer() {
 
 function callBack() {
 	var d = new Date();
-	var t = d.toLocaleTimeString();
-	document.getElementById("timer").innerHTML = t;
+	var t = d.getMilliseconds();
+	document.getElementById("timer").innerHTML = `Time in ms = ${t}`;
 }
