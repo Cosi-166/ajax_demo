@@ -6,7 +6,7 @@ var myTimer = null;
 
 function setTimer() {
 	document.getElementById("status").innerHTML = "Started timer..."
-	myTimer = setInterval(callBack, 100);
+	myTimer = setInterval(callBack, 10);
 }
 
 function clearTimer() {

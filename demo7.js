@@ -6,7 +6,7 @@ $(document).ready(function() {
 
     $(".stanza").css("margin-bottom", "15px").css("margin-left", "15px");
 
-    $(".author").css("font-size", "22pt").css("margin-left", "35px");
+    $(".author").css("font-size", "50pt").css("margin-left", "35px");
 
     $("#first .line").css("color", "brown");
 

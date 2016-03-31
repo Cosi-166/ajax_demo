@@ -2,8 +2,8 @@
 // Notice that getElementsByClassName returns an array!
 // Also notice that the javacript script tag comes after all the html!
 
-console.log(document.getElementsByClassName('author')[0].innerHTML);
-console.log(document.getElementById('first').innerHTML);
+// console.log(document.getElementsByClassName('author')[0].innerHTML);
+// console.log(document.getElementById('first').innerHTML);
 
 // Now lets try to actually change the html file!
 // Change the author's html
@@ -13,7 +13,7 @@ console.log(document.getElementById('first').innerHTML);
 // document.getElementsByClassName('author')[0].style.fontStyle = "italic";
 // document.getElementsByClassName('author')[0].style.fontSize = "200%";
 // console.log(document.getElementsByClassName('stanza').length);
-
+//
 // Events can be triggered in all kinds of situations:
 // clicking, page loaded, input field changed, mouse hover, mouse up
 // and down, keystroke etc etc.
