@@ -15,6 +15,7 @@ document.write("<hr/><h4>array.toString():</h4>");
 document.write(newArray.toString());
 document.write("<br/>");
 document.write("<br/>");
+
 console.log(newArray.join("<br/>"));
 document.write("<hr/><h4>array.join(br): </h4>");
 document.write(newArray.join("<br/>"));
